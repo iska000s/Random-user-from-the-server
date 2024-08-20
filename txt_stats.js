@@ -13,3 +13,4 @@ function onChange(e){
     document.getElementById("num-words").innerHTML = numWords;
     document.getElementById("num-sentances").innerHTML = numSentances ;
 }
+
