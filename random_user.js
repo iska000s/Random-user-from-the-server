@@ -15,7 +15,7 @@ function dataReady(data) {
     let country = result.location.country;
     let avatar = result.picture.medium;
 
-    console.log("Random user: ", fullname, "user name: ", username, "email: ", email, "country: ", country);
+    console.log("Random user: ", fullname, "\n user name: ", username, "\n email: ", email, "\n country: ", country);
 
     document.querySelector("#full-name").innerHTML = fullname;
     document.querySelector("#username").innerHTML = username;
