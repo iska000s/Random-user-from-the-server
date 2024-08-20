@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <meta name="author" content="Izabela Stankiewicz">
+    <meta name="description"
+          content="Random user">
+    <meta name="keywords"
+          content="exercises">
+    <meta name="robots" content="index, follow">
+
+    <title>Random user from the servers</title>
+    
+    <style>
+    :root {
+        display: flex;
+        background-color: blue;
+        width: 100%;
+        height: 100%;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        background-color: rgb(209, 237, 226);
+        padding: 5em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        gap: 3em;
+      }
+    h2{
+        color: cadetblue;
+        text-align: center;
+    }
+    .row{
+        display: flex;
+    }
+    .column{
+        flex: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .avatar-img{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+    #avatar-img{
+        margin: 0.3em;
+        border-radius: 5em;
+        width: 70%;
+    }
+    .user-profile{
+        margin: auto;
+        padding: 0.5em;
+        width: 20em;
+        background-color: white;
+        border-radius: 0.4em;
+        color: cadetblue;
+    }
+    #full-name{
+        font-size: 0.95em;
+        font-weight: bold;
+    }
+    #username{
+        font-size: 0.8em;
+    }
+    #user-details{
+        margin-top: 1em;
+        font-size: 0.6em;
+        color: teal;
+    }
+    .copyright {
+        color: rgb(95, 93, 93);
+        font-weight: lighter;
+        font-size: 0.8em;
+      }
+    </style>
+
+  </head>
+  <body>
+    <header>
+    </header>
+
+    <div class="container">
+    <h2>Random user</h2>
+    <div class="user-profile">
+        <div class="row"> 
+            <div class="column avatar-img">
+                <img id="avatar-img" src="" alt="">
+            </div>
+            <div class="column">
+                <div id="full-name">full name</div>
+                <div id="username">user name</div>
+                <div id="user-details">
+                    <div id="email">email</div>
+                    <div id="country">country</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+
+
+<footer class="copyright">
+  Copyright ..
+</footer>
+
+<script type="module" src="app.js"></script>
+
+
+</body>
+</html>
+
